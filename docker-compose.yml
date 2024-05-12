@@ -35,7 +35,7 @@ services:
       VIRTUAL_PORT: 80
       LANG: 'en_EN.UTF-8'
       TZ: 'Asia/Kuala_Lumpur'
-      WEBPASSWORD: 'YourOwnPassword'
+      WEBPASSWORD: 'YourOwnPassword' # change this
     restart: unless-stopped
     networks:
       - pihole_net
