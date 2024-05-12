@@ -1,1 +1,2 @@
 ./conf/pihole/
+./conf/pihole/** */
